@@ -15,11 +15,11 @@ export default function GlobalHeader() {
     leftHeader = 'sd'
   }
   return (
-    <header className="flex items-center justify-center fixed w-full h-32 z-40 bg-white ">
+    <header className="flex items-center justify-center fixed w-full  bg-white " style={{height: '78px'}}>
       <Container className="flex items-center justify-between rounded-b-3xl h-full pl-4 bg-primary">
         <Link href="/ass">
           <a className="align-middle">
-            <Images src="/logonav.png" width={45} height={45} />
+            <Images src="/logonav.png" width={48} height={48} />
           </a>
         </Link>
         <div className="-mr-4">
