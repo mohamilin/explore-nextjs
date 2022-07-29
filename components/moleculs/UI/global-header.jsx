@@ -25,7 +25,7 @@ export default function GlobalHeader() {
         <div className="-mr-4">
           <div className="col-span-1 rounded-lg divide-y divide-gray-200">
             <div className="w-full flex items-center justify-between p-4 space-x-4">
-              <div className="flex-1 truncate mr-2">
+              {/* <div className="flex-1 truncate mr-2">
                 <div className="flex items-center space-x-4">
                   <h3 className="text-gray-900 text-sm font-medium truncate">
                     Muhammad Zimamul Adli
@@ -41,14 +41,14 @@ export default function GlobalHeader() {
                 width={50}
                 height={50}
                 alt=""
-              />
+              /> */}
               <span className="inline-flex ">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 -mr-4" fill="none" viewBox="0 0 24 24" stroke="white" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                   </svg>
               </span>
               <span className="inline-flex">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-3" fill="none" viewBox="0 0 24 24" stroke="white" strokeWidth={2}>
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-4" fill="none" viewBox="0 0 24 24" stroke="white" strokeWidth={2}>
                       <path d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
                   </svg>
               </span>
