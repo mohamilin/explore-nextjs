@@ -33,7 +33,7 @@ export default function NavigationBottom() {
 
   return (
     <nav className="flex items-center justify-center fixed bottom-0 w-full h-16 border-gray-300 z-40">
-    <div className="flex items-center justify-center w-full max-w-xl mx-auto bg-nav-bottom rounded-t-3xl h-24 ">
+    <div className="flex items-center justify-center w-full max-w-xl mx-auto bg-nav-bottom rounded-t-3xl h-20 ">
       <ul className="flex items-center justify-evenly w-full  ">
         {bottomNavigation.map(item => {
           const isActive = item.exact
