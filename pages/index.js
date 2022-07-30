@@ -11,7 +11,7 @@ export default function Home() {
   return (
   <Page>
     <HomePageContent>
-    <Container className="space-y-3 mt-10">
+    <Container className="space-y-3 mt-3">
     <MainHero/>
       <div className='mt-20 mb-10 m-3'>
       <p>
