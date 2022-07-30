@@ -89,7 +89,7 @@ export default function MainFeature() {
               <div className="space-y-8 sm:space-y-12">
                 <ul
                   role="list"
-                  className="rounded-ful mx-auto grid grid-cols-4 gap-x-4 gap-y-8 sm:grid-cols-5 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-5"
+                  className="rounded-ful mx-auto grid grid-cols-5 gap-x-4 gap-y-8 sm:grid-cols-5 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-5"
                 >
                   {people.map((person) => (
                     <li key={person.name}>
