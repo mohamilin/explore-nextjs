@@ -11,7 +11,9 @@ module.exports = {
         'secondary': '#E7FFFE',
         'nav-bottom': 'rgb(255 247 237)'
       },
-      
+      fontFamily: {
+        'roboto': ['Roboto', 'sans-serif'],
+      }
     },
   },
   plugins: [
