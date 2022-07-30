@@ -93,12 +93,16 @@ export default function MainFeature() {
                 >
                   {people.map((person) => (
                     <li key={person.name}>
-                      <div className="space-y-4">
+                      <div className="space-y-4 ">
+                        <div className="mx-auto  rounded-full bg-secondary" style={{'height': '45px', 'width':'45px'}}>
+                        <div className="inline-block p-2 rounded-full ">
                         <img
-                          className="mx-auto h-18 w-18 rounded-full"
+                          className="mx-auto h-18 w-18 rounded-full "
                           src={person.imageUrl}
                           alt="Icon feature"
                         />
+                        </div>
+                        </div>
                         <div className="space-y-2">
                           <div className="text-xs font-medium lg:text-sm">
                             <h3>{person.name}</h3>
