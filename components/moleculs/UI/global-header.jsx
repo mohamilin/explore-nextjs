@@ -15,9 +15,9 @@ export default function GlobalHeader() {
     leftHeader = 'sd'
   }
   return (
-    <header className="flex items-center justify-center fixed w-full  bg-white " style={{height: '78px'}}>
-      <Container className="flex items-center justify-between rounded-b-3xl h-full pl-4 bg-primary">
-        <Link href="/ass">
+    <header className="flex items-center justify-center fixed top-0 w-full    z-10 " style={{height: '78px'}}>
+      <Container className="flex items-center justify-between rounded-b-3xl h-full pl-4  bg-primary">
+        <Link href="/">
           <a className="align-middle">
             <Images src="/logonav.png" width={48} height={48} />
           </a>
