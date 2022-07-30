@@ -34,7 +34,7 @@ export default function MainHero() {
                         src={Blog1}
                         alt="Picture of the author"
                         width={450}
-                        height={250}
+                        height={280}
                     />
                     </div>
                 </div>
@@ -45,7 +45,7 @@ export default function MainHero() {
                         src={Blog2}
                         alt="Picture of the author"
                         width={450}
-                        height={250}
+                        height={280}
                     />
                    </div>
                 </div>
@@ -56,7 +56,7 @@ export default function MainHero() {
                         src={Blog3}
                         alt="Picture of the author"
                         width={450}
-                        height={250}
+                        height={280}
                     />
                    </div>
                 </div>
