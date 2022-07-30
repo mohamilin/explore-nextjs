@@ -6,6 +6,7 @@ import { Page } from '../components/moleculs/page'
 import { Container } from '../components/moleculs/UI/container'
 import MainFeature from '../components/origanism/MainFeature'
 import MainHero from '../components/origanism/MainHero'
+import MainStatic from '../components/origanism/MainStatic'
 import Blog1 from '../public/MainHero/1.jpg'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
     <Container className="space-y-3 mt-3">
     <MainHero/>
     <MainFeature/>
+    <MainStatic/>
       <div className='mt-20 mb-10 m-3'>
       <p>
       lorem ipsun
