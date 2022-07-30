@@ -4,7 +4,7 @@ import NavigationBottom from './navigation-bottom'
 
 export default function LayoutRoot({children}) {
   return (
-    <main className="flex flex-col w-full min-h-screen bg-white">
+    <main className="flex flex-col w-full min-h-screen ">
         <GlobalHeader/>
         {children}
        <NavigationBottom/>
