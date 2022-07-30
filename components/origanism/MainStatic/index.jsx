@@ -15,8 +15,8 @@ export default function MainStatic() {
     <section>
       <Container>
         <ContainerCategory name={"Statistik"} />
-        <div className="mx-4 ">
-          <dl className="  mt-5 grid grid-cols-2 gap-1 sm:grid-cols-2 lg:grid-cols-3 ">
+        <div className="mx-4 mt-4 ">
+          <dl className="rounded-ful mx-auto grid grid-cols-2 gap-x-4 gap-y-4 sm:grid-cols-3 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-2 xl:grid-cols-3">
             {stats.map((item) => (
               <div key={item.name}>
                 <div className="flex">
