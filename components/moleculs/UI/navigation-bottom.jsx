@@ -26,7 +26,7 @@ export default function NavigationBottom() {
           "aria-hidden": true
         })} */}
         <Image src={item.icon} width={35} height={35} alt="home"  />
-        <span className="text-xs truncate mt-2 ">{item.name}</span>
+        <span className="text-xs truncate mt-1 -mb-3 ">{item.name}</span>
       </>
     )
   }
