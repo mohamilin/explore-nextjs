@@ -5,11 +5,17 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {
-      'primary': '#00B7B5',
-      'nav-bottom': 'rgb(255 247 237)'
+    extend: {
+      colors: {
+        'primary': '#00B7B5',
+        'nav-bottom': 'rgb(255 247 237)'
+      },
+      
     },
-    extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }
