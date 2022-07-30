@@ -22,7 +22,7 @@ export default function MainHero() {
         cssEase: "linear"
     };
     return (
-      <header>
+      <section>
         <Container>
        <div>
        <div className="mt-5 mx-4 pt-2 pb-2 px-3" >
@@ -65,6 +65,6 @@ export default function MainHero() {
         </div>
        </div>
         </Container>
-      </header>
+      </section>
     );
 }
