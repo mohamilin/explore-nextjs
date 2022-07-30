@@ -32,7 +32,7 @@ export default function MainHero() {
                         className="rounded-lg"
                         src={Blog1}
                         alt="Picture of the author"
-                        width={500}
+                        width={290}
                         height={250}
                     />
                 </div>
@@ -41,7 +41,7 @@ export default function MainHero() {
                         className="rounded-lg"
                         src={Blog2}
                         alt="Picture of the author"
-                        width={500}
+                        width={290}
                         height={250}
                     />
                 </div>
@@ -50,7 +50,7 @@ export default function MainHero() {
                         className="rounded-lg"
                         src={Blog3}
                         alt="Picture of the author"
-                        width={500}
+                        width={290}
                         height={250}
                     />
                 </div>
