@@ -28,35 +28,35 @@ export default function MainHero() {
        <div className="mt-5 mx-4 pt-2 pb-2 px-3" >
             <Slider {...settings}>
                 <div className="relative"> 
-                    <div className=" bg-white grid place-items-center">
+                    <div className=" bg-white grid place-items-center mx-3">
                     <Image
                         className="rounded-lg "
                         src={Blog1}
                         alt="Picture of the author"
-                        width={290}
-                        height={190}
+                        width={450}
+                        height={250}
                     />
                     </div>
                 </div>
                 <div className="relative" >
-                <div className=" bg-white grid place-items-center">
+                <div className=" bg-white grid place-items-center mx-3">
                    <Image
                         className="rounded-lg"
                         src={Blog2}
                         alt="Picture of the author"
-                        width={290}
-                        height={190}
+                        width={450}
+                        height={250}
                     />
                    </div>
                 </div>
                 <div className="relative">
-                <div className=" bg-white grid place-items-center">
+                <div className=" bg-white grid place-items-center mx-3">
                    <Image
                         className="rounded-lg"
                         src={Blog3}
                         alt="Picture of the author"
-                        width={290}
-                        height={190}
+                        width={450}
+                        height={250}
                     />
                    </div>
                 </div>
