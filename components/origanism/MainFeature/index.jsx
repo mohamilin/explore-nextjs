@@ -65,7 +65,7 @@ const people = [
       "../../../MainIcon/icon8.png",
   },
   {
-    name: "E-Courses",
+    name: "Courses",
     role: "Co-Founder / CTO",
     imageUrl: '../../../MainIcon/icon9.png',
   },
@@ -94,17 +94,17 @@ export default function MainFeature() {
                   {people.map((person) => (
                     <li key={person.name}>
                       <div className="space-y-3 ">
-                        <div className="mx-auto rounded-full bg-secondary" style={{'height': '70px', 'width':'70px'}}>
+                        <div className="mx-auto rounded-full bg-secondary" style={{'height': '55px', 'width':'55px'}}>
                         <div className="inline-block p-1 rounded-full z-40 ">
                         <img
-                          className="mx-auto h-14 w-15 rounded-full  "
+                          className="mx-auto h-11 w-10 rounded-full  "
                           src={person.imageUrl}
                           alt="Icon feature"
                         />
                         </div>
                         </div>
                         <div className="space-y-2">
-                          <div className="text-xs font-medium lg:text-sm">
+                          <div className="text-xs font-medium">
                             <h3>{person.name}</h3>
                           </div>
                         </div>
