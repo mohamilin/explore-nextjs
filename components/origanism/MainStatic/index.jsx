@@ -16,16 +16,16 @@ export default function MainStatic() {
       <Container>
         <ContainerCategory name={"Statistik"} />
         <div className="mx-4 mt-4 ">
-          <dl className="rounded-ful mx-auto grid grid-cols-2 gap-x-4 gap-y-4 sm:grid-cols-3 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-2 xl:grid-cols-3">
+          <dl className="rounded-ful mx-auto grid grid-cols-3 gap-x-4 gap-y-4 sm:grid-cols-3 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-2 xl:grid-cols-3">
             {stats.map((item) => (
               <div key={item.name}>
                 <div className="flex">
-                  <div className="mr-4 flex-shrink-0 self-center">
+                  <div className="mr-1 flex-shrink-0 self-center">
                     <img src={item.icon} className="h-9 w-9" alt="icon" />
                   </div>
                   <div>
-                    <h4 className="text-lg font-bold">{item.stat}</h4>
-                    <p className="mt-0">{item.name}</p>
+                    <h4 className="text-sm font-bold">{item.stat}</h4>
+                    <p className="mt-0 text-xs">{item.name}</p>
                   </div>
                 </div>
               </div>
