@@ -26,15 +26,15 @@ export default function NavigationBottom() {
           "aria-hidden": true
         })} */}
         <Image src={item.icon} width={35} height={35} alt="home"  />
-        <span className="text-xs truncate ">{item.name}</span>
+        <span className="text-xs truncate mt-2 ">{item.name}</span>
       </>
     )
   }
 
   return (
-    <nav className="flex items-center justify-center fixed bottom-0 w-full h-16 border-gray-300 z-40">
+    <nav className="flex items-center justify-center fixed bottom-0 w-full h-20 border-gray-300 z-40">
     <div className="flex items-center justify-center w-full max-w-xl mx-auto bg-nav-bottom rounded-t-3xl h-20 ">
-      <ul className="flex items-center justify-evenly w-full ">
+      <ul className="flex items-center justify-evenly w-full  ">
         {bottomNavigation.map(item => {
           const isActive = item.exact
             ? item.href === router.asPath
