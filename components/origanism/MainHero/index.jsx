@@ -33,7 +33,7 @@ export default function MainHero() {
                         src={Blog1}
                         alt="Picture of the author"
                         width={290}
-                        height={250}
+                        height={190}
                     />
                 </div>
                 <div className="" >
@@ -42,7 +42,7 @@ export default function MainHero() {
                         src={Blog2}
                         alt="Picture of the author"
                         width={290}
-                        height={250}
+                        height={190}
                     />
                 </div>
                 <div>
@@ -51,7 +51,7 @@ export default function MainHero() {
                         src={Blog3}
                         alt="Picture of the author"
                         width={290}
-                        height={250}
+                        height={190}
                     />
                 </div>
 
