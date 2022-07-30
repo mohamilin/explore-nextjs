@@ -38,36 +38,36 @@ const people = [
     name: "Beasiswa",
     role: "Co-Founder / CTO",
     imageUrl:
-      "../../../MainIcon/icon5.png",
+      "../../../MainIcon/icon4.png",
   },
   {
     name: "Event",
     role: "Co-Founder / CTO",
     imageUrl:
-      "../../../MainIcon/icon6.png",
+      "../../../MainIcon/icon5.png",
   },
   {
     name: "Info Santri",
     role: "Co-Founder / CTO",
     imageUrl:
-      "../../../MainIcon/icon7.png",
+      "../../../MainIcon/icon6.png",
   },
   {
     name: "Donasi",
     role: "Co-Founder / CTO",
     imageUrl:
-      "../../../MainIcon/icon8.png",
+      "../../../MainIcon/icon7.png",
   },
   {
     name: "Artikel",
     role: "Co-Founder / CTO",
     imageUrl:
-      "../../../MainIcon/icon9.png",
+      "../../../MainIcon/icon8.png",
   },
   {
     name: "E-Courses",
     role: "Co-Founder / CTO",
-    imageUrl: '../../../MainIcon/icon4.png',
+    imageUrl: '../../../MainIcon/icon9.png',
   },
   
   {
@@ -93,11 +93,11 @@ export default function MainFeature() {
                 >
                   {people.map((person) => (
                     <li key={person.name}>
-                      <div className="space-y-4 ">
-                        <div className="mx-auto  rounded-full bg-secondary" style={{'height': '45px', 'width':'45px'}}>
-                        <div className="inline-block p-2 rounded-full ">
+                      <div className="space-y-3 ">
+                        <div className="mx-auto rounded-full bg-secondary" style={{'height': '70px', 'width':'70px'}}>
+                        <div className="inline-block p-1 rounded-full z-40 ">
                         <img
-                          className="mx-auto h-18 w-18 rounded-full "
+                          className="mx-auto h-14 w-15 rounded-full  "
                           src={person.imageUrl}
                           alt="Icon feature"
                         />
