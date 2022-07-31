@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { HomePageContent } from '../components/moleculs/home/homepage-content'
 import { Page } from '../components/moleculs/page'
 import { Container } from '../components/moleculs/UI/container'
+import MainBanner from '../components/origanism/MainBanner'
 import MainFeature from '../components/origanism/MainFeature'
 import MainHero from '../components/origanism/MainHero'
 import MainInspiration from '../components/origanism/MainInspiration'
@@ -19,6 +20,7 @@ export default function Home() {
     <MainFeature/>
     <MainStatic/>
     <MainInspiration/>
+    <MainBanner />
       <div className='mt-20 mb-10 m-3'>
       <p>
       lorem ipsun
