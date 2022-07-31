@@ -1,5 +1,5 @@
 import * as React from "react"
 
 export const Page = ({ children }) => {
-  return <section className="flex flex-col flex-1 py-16">{children}</section>
+  return <section className="flex flex-col flex-1 py-16 mb-10">{children}</section>
 }
