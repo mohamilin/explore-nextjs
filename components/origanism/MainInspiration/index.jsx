@@ -71,9 +71,9 @@ export default function MainInspiration() {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
-    speed: 1000,
-    autoplaySpeed: 1500,
+    autoplay: false,
+    speed: 1500,
+    autoplaySpeed: 3500,
     cssEase: "linear",
   };
 
