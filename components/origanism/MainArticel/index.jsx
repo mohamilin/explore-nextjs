@@ -4,13 +4,15 @@
 import Image from "next/image";
 import Icon1 from "../../../public/MainIcon/icon11.png";
 import Icon2 from "../../../public/MainIcon/icon12.png";
+import Icon3 from "../../../public/MainIcon/icon13.png";
+
 import ContainerCategory from "../../moleculs/UI/container-category";
 const people = [
   {
     name: "Whitney Francis",
     role: "3 februari 2022",
     imageUrl:
-      "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      Icon3,
     bio: "5 Cara yang bisa kamu lakukan sebagai alternatif kuliah jika kamu mengalami keterbatasan finansial.",
     icon: Icon2,
     profile: Icon1,
@@ -19,7 +21,7 @@ const people = [
     name: "Whitney Francis",
     role: "3 februari 2022",
     imageUrl:
-      "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    Icon3,
     bio: "5 Cara yang bisa kamu lakukan sebagai alternatif kuliah jika kamu mengalami keterbatasan finansial.",
     icon: Icon1,
     profile: Icon1,
@@ -28,7 +30,7 @@ const people = [
     name: "Whitney Francis",
     role: "3 februari 2022",
     imageUrl:
-      "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    Icon3,
     bio: "5 Cara yang bisa kamu lakukan sebagai alternatif kuliah jika kamu mengalami keterbatasan finansial.",
     icon: Icon1,
     profile: Icon1,
@@ -46,17 +48,19 @@ export default function MainArticel() {
           <div className="space-y-12">
             <ul
               role="list"
-              className="space-y-12 lg:grid lg:grid-cols-1 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0"
+              className="space-y-5 lg:grid lg:grid-cols-1 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0"
             >
               {people.map((person) => (
                 <div className="flex" key={person.bio}>
                   <div className="mr-4 flex-shrink-0 self-center">
             
                     <div>
-                      <img
-                        className="h40 w-40 shadow-lg rounded-lg"
+                      <Image
+                        className="shadow-lg rounded-lg"
                         src={person.imageUrl}
                         alt=""
+                        width={150}
+                        height={150}
                       />
                       
                     </div>
